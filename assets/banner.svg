@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" fill="none" role="img" aria-label="Xentrolance Technical Labs">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#061018"/>
+      <stop offset="45%" stop-color="#0B1C28"/>
+      <stop offset="100%" stop-color="#0A2A2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="80" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1FE1C0"/>
+      <stop offset="50%" stop-color="#3DB8FF"/>
+      <stop offset="100%" stop-color="#7C9CFF"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="700" y1="40" x2="700" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1FE1C0" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#1FE1C0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 110) rotate(90) scale(220 220)">
+      <stop stop-color="#3DB8FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3DB8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 300) rotate(90) scale(180 180)">
+      <stop stop-color="#1FE1C0" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#1FE1C0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" fill="url(#bg)"/>
+  <rect width="1400" height="420" fill="url(#grid)"/>
+  <circle cx="1120" cy="110" r="220" fill="url(#orb)"/>
+  <circle cx="220" cy="300" r="180" fill="url(#orb2)"/>
+  <ellipse cx="700" cy="210" rx="520" ry="140" fill="url(#glow)" filter="url(#soft)"/>
+
+  <!-- Abstract network nodes -->
+  <g stroke="url(#accent)" stroke-opacity="0.35" stroke-width="1.5">
+    <path d="M980 120 L1080 180 L1180 140 L1260 210"/>
+    <path d="M1040 250 L1120 210 L1220 280"/>
+    <path d="M160 140 L240 190 L320 150 L400 220"/>
+  </g>
+  <g fill="#1FE1C0">
+    <circle cx="980" cy="120" r="4" opacity="0.9"/>
+    <circle cx="1080" cy="180" r="5" opacity="0.75"/>
+    <circle cx="1180" cy="140" r="3.5" opacity="0.8"/>
+    <circle cx="1260" cy="210" r="4.5" opacity="0.7"/>
+    <circle cx="160" cy="140" r="4" opacity="0.85"/>
+    <circle cx="240" cy="190" r="5" opacity="0.7"/>
+    <circle cx="320" cy="150" r="3.5" opacity="0.8"/>
+    <circle cx="400" cy="220" r="4" opacity="0.65"/>
+  </g>
+
+  <!-- Mark -->
+  <g transform="translate(170 148)">
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#0E2430" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M14 36 L28 14 L42 36" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="28" cy="28" r="3.5" fill="#1FE1C0"/>
+  </g>
+
+  <text x="250" y="178" fill="#E8F4F8" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="1.5">XENTROLANCE</text>
+  <text x="250" y="218" fill="url(#accent)" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="6">TECHNICAL LABS</text>
+  <text x="250" y="268" fill="#9BB4C0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" letter-spacing="0.5">Engineering secure, intelligent systems for the enterprise</text>
+
+  <!-- Pill tags -->
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600">
+    <rect x="250" y="300" width="118" height="30" rx="15" fill="#102833" stroke="#1FE1C055"/>
+    <text x="309" y="320" text-anchor="middle" fill="#B8F5E8">Blockchain</text>
+    <rect x="380" y="300" width="74" height="30" rx="15" fill="#102833" stroke="#3DB8FF55"/>
+    <text x="417" y="320" text-anchor="middle" fill="#B8DFFF">AI / ML</text>
+    <rect x="466" y="300" width="118" height="30" rx="15" fill="#102833" stroke="#7C9CFF55"/>
+    <text x="525" y="320" text-anchor="middle" fill="#D0DBFF">Cloud Native</text>
+    <rect x="596" y="300" width="98" height="30" rx="15" fill="#102833" stroke="#1FE1C055"/>
+    <text x="645" y="320" text-anchor="middle" fill="#B8F5E8">Enterprise</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="56" viewBox="0 0 720 56">
+  <rect width="720" height="56" rx="10" fill="#0B1C28"/>
+  <text x="24" y="36" font-family="Consolas, Monaco, monospace" font-size="18" fill="#1FE1C0">&gt;</text>
+  <text font-family="Consolas, Monaco, monospace" font-size="18" fill="#E8F4F8" x="48" y="36">
+    <tspan>
+      <animate attributeName="opacity" values="1;1;0;0" dur="0.01s" begin="0s;phrase1.end" fill="freeze"/>
+      Building production-grade systems_
+      <animate id="phrase1" attributeName="opacity" values="1;1;0;0" keyTimes="0;0.85;0.9;1" dur="3.2s" begin="0s;phrase4.end" fill="freeze"/>
+    </tspan>
+  </text>
+  <text font-family="Consolas, Monaco, monospace" font-size="18" fill="#E8F4F8" x="48" y="36" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.01;0.05;0.85;0.9;1" dur="3.2s" begin="phrase1.end" fill="freeze" id="phrase2"/>
+    Securing blockchain &amp; AI platforms_
+  </text>
+  <text font-family="Consolas, Monaco, monospace" font-size="18" fill="#E8F4F8" x="48" y="36" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.01;0.05;0.85;0.9;1" dur="3.2s" begin="phrase2.end" fill="freeze" id="phrase3"/>
+    Shipping with CI/CD &amp; rigorous tests_
+  </text>
+  <text font-family="Consolas, Monaco, monospace" font-size="18" fill="#E8F4F8" x="48" y="36" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.01;0.05;0.85;0.9;1" dur="3.2s" begin="phrase3.end" fill="freeze" id="phrase4"/>
+    Partnering for long-term growth_
+  </text>
+</svg>
